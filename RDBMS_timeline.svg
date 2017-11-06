@@ -1776,7 +1776,7 @@
 <polygon fill="black" stroke="black" points="525.04,-574.007 521.005,-564.21 518.05,-574.384 525.04,-574.007"/>
 </g>
 <!-- Percona Server 5.1 -->
-<g id="node248" class="node"><title>Percona Server 5.1</title>
+<g id="node249" class="node"><title>Percona Server 5.1</title>
 <ellipse fill="none" stroke="black" cx="164" cy="-378" rx="77.2181" ry="18"/>
 <text text-anchor="middle" x="164" y="-373.8" font-family="Times,serif" font-size="14.00">Percona Server 5.1</text>
 </g>
@@ -1796,7 +1796,7 @@
 <polygon fill="black" stroke="black" points="1894.89,-662.07 1890.89,-652.262 1887.9,-662.428 1894.89,-662.07"/>
 </g>
 <!-- MaxDB 7.8 -->
-<g id="node247" class="node"><title>MaxDB 7.8</title>
+<g id="node248" class="node"><title>MaxDB 7.8</title>
 <ellipse fill="#e5e5e5" stroke="#e5e5e5" cx="3200" cy="-458" rx="51.3022" ry="18"/>
 <text text-anchor="middle" x="3200" y="-453.8" font-family="Times,serif" font-size="14.00">MaxDB 7.8</text>
 </g>
@@ -2202,7 +2202,7 @@
 <polygon fill="black" stroke="black" points="961.539,-185.649 952.712,-179.789 955.958,-189.874 961.539,-185.649"/>
 </g>
 <!-- MariaDB 10.2 -->
-<g id="node229" class="node"><title>MariaDB 10.2</title>
+<g id="node230" class="node"><title>MariaDB 10.2</title>
 <ellipse fill="#cd5b45" stroke="#cd5b45" cx="869" cy="-18" rx="61.2917" ry="18"/>
 <text text-anchor="middle" x="869" y="-13.8" font-family="Times,serif" font-size="14.00">MariaDB 10.2</text>
 </g>
@@ -2290,7 +2290,7 @@
 <polygon fill="black" stroke="black" points="412.347,-93.5001 422.347,-90 412.347,-86.5001 412.347,-93.5001"/>
 </g>
 <!-- PostgreSQL 10 -->
-<g id="node230" class="node"><title>PostgreSQL 10</title>
+<g id="node231" class="node"><title>PostgreSQL 10</title>
 <ellipse fill="#1874cd" stroke="#1874cd" cx="1890" cy="-18" rx="64.1117" ry="18"/>
 <text text-anchor="middle" x="1890" y="-13.8" font-family="Times,serif" font-size="14.00">PostgreSQL 10</text>
 </g>
@@ -2299,8 +2299,13 @@
 <path fill="none" stroke="black" d="M1890,-71.6966C1890,-63.9827 1890,-54.7125 1890,-46.1124"/>
 <polygon fill="black" stroke="black" points="1893.5,-46.1043 1890,-36.1043 1886.5,-46.1044 1893.5,-46.1043"/>
 </g>
+<!-- CockroachDB 1.0 -->
+<g id="node229" class="node"><title>CockroachDB 1.0</title>
+<ellipse fill="darksalmon" stroke="darksalmon" cx="2046" cy="-18" rx="73.4446" ry="18"/>
+<text text-anchor="middle" x="2046" y="-13.8" font-family="Times,serif" font-size="14.00">CockroachDB 1.0</text>
+</g>
 <!-- Honeywell\nInformation\nSystems, Inc -->
-<g id="node231" class="node"><title>Honeywell\nInformation\nSystems, Inc</title>
+<g id="node232" class="node"><title>Honeywell\nInformation\nSystems, Inc</title>
 <path fill="#999999" stroke="#999999" d="M2216.17,-3560C2216.17,-3560 2153.83,-3560 2153.83,-3560 2147.83,-3560 2141.83,-3554 2141.83,-3548 2141.83,-3548 2141.83,-3522 2141.83,-3522 2141.83,-3516 2147.83,-3510 2153.83,-3510 2153.83,-3510 2216.17,-3510 2216.17,-3510 2222.17,-3510 2228.17,-3516 2228.17,-3522 2228.17,-3522 2228.17,-3548 2228.17,-3548 2228.17,-3554 2222.17,-3560 2216.17,-3560"/>
 <text text-anchor="middle" x="2185" y="-3544.8" font-family="Times,serif" font-size="14.00">Honeywell</text>
 <text text-anchor="middle" x="2185" y="-3530.8" font-family="Times,serif" font-size="14.00">Information</text>
@@ -2312,7 +2317,7 @@
 <polygon fill="black" stroke="black" points="2179.15,-3481.99 2173.92,-3472.78 2172.26,-3483.24 2179.15,-3481.99"/>
 </g>
 <!-- IBM -->
-<g id="node232" class="node"><title>IBM</title>
+<g id="node233" class="node"><title>IBM</title>
 <path fill="#999999" stroke="#999999" d="M1240,-3044C1240,-3044 1210,-3044 1210,-3044 1204,-3044 1198,-3038 1198,-3032 1198,-3032 1198,-3020 1198,-3020 1198,-3014 1204,-3008 1210,-3008 1210,-3008 1240,-3008 1240,-3008 1246,-3008 1252,-3014 1252,-3020 1252,-3020 1252,-3032 1252,-3032 1252,-3038 1246,-3044 1240,-3044"/>
 <text text-anchor="middle" x="1225" y="-3021.8" font-family="Times,serif" font-size="14.00">IBM</text>
 </g>
@@ -2327,7 +2332,7 @@
 <polygon fill="black" stroke="black" points="1166.38,-2906.52 1158.62,-2899.31 1160.19,-2909.79 1166.38,-2906.52"/>
 </g>
 <!-- Illustra\nInformation\nTechnologies -->
-<g id="node233" class="node"><title>Illustra\nInformation\nTechnologies</title>
+<g id="node234" class="node"><title>Illustra\nInformation\nTechnologies</title>
 <path fill="#999999" stroke="#999999" d="M1541.33,-2199C1541.33,-2199 1474.67,-2199 1474.67,-2199 1468.67,-2199 1462.67,-2193 1462.67,-2187 1462.67,-2187 1462.67,-2161 1462.67,-2161 1462.67,-2155 1468.67,-2149 1474.67,-2149 1474.67,-2149 1541.33,-2149 1541.33,-2149 1547.33,-2149 1553.33,-2155 1553.33,-2161 1553.33,-2161 1553.33,-2187 1553.33,-2187 1553.33,-2193 1547.33,-2199 1541.33,-2199"/>
 <text text-anchor="middle" x="1508" y="-2183.8" font-family="Times,serif" font-size="14.00">Illustra</text>
 <text text-anchor="middle" x="1508" y="-2169.8" font-family="Times,serif" font-size="14.00">Information</text>
@@ -2339,7 +2344,7 @@
 <polygon fill="black" stroke="black" points="1459.24,-2115.77 1449.85,-2110.86 1454.12,-2120.56 1459.24,-2115.77"/>
 </g>
 <!-- MariaDB Corporation -->
-<g id="node234" class="node"><title>MariaDB Corporation</title>
+<g id="node235" class="node"><title>MariaDB Corporation</title>
 <path fill="#999999" stroke="#999999" d="M1051.02,-324C1051.02,-324 934.977,-324 934.977,-324 928.977,-324 922.977,-318 922.977,-312 922.977,-312 922.977,-300 922.977,-300 922.977,-294 928.977,-288 934.977,-288 934.977,-288 1051.02,-288 1051.02,-288 1057.02,-288 1063.02,-294 1063.02,-300 1063.02,-300 1063.02,-312 1063.02,-312 1063.02,-318 1057.02,-324 1051.02,-324"/>
 <text text-anchor="middle" x="993" y="-301.8" font-family="Times,serif" font-size="14.00">MariaDB Corporation</text>
 </g>
@@ -2349,7 +2354,7 @@
 <polygon fill="black" stroke="black" points="996.5,-262.104 993,-252.104 989.5,-262.104 996.5,-262.104"/>
 </g>
 <!-- Microsoft -->
-<g id="node235" class="node"><title>Microsoft</title>
+<g id="node236" class="node"><title>Microsoft</title>
 <path fill="#999999" stroke="#999999" d="M2206.41,-2504C2206.41,-2504 2159.59,-2504 2159.59,-2504 2153.59,-2504 2147.59,-2498 2147.59,-2492 2147.59,-2492 2147.59,-2480 2147.59,-2480 2147.59,-2474 2153.59,-2468 2159.59,-2468 2159.59,-2468 2206.41,-2468 2206.41,-2468 2212.41,-2468 2218.41,-2474 2218.41,-2480 2218.41,-2480 2218.41,-2492 2218.41,-2492 2218.41,-2498 2212.41,-2504 2206.41,-2504"/>
 <text text-anchor="middle" x="2183" y="-2481.8" font-family="Times,serif" font-size="14.00">Microsoft</text>
 </g>
@@ -2359,7 +2364,7 @@
 <polygon fill="black" stroke="black" points="2186.5,-2442.1 2183,-2432.1 2179.5,-2442.1 2186.5,-2442.1"/>
 </g>
 <!-- Miró -->
-<g id="node236" class="node"><title>Miró</title>
+<g id="node237" class="node"><title>Miró</title>
 <path fill="#999999" stroke="#999999" d="M1523,-2280C1523,-2280 1493,-2280 1493,-2280 1487,-2280 1481,-2274 1481,-2268 1481,-2268 1481,-2256 1481,-2256 1481,-2250 1487,-2244 1493,-2244 1493,-2244 1523,-2244 1523,-2244 1529,-2244 1535,-2250 1535,-2256 1535,-2256 1535,-2268 1535,-2268 1535,-2274 1529,-2280 1523,-2280"/>
 <text text-anchor="middle" x="1508" y="-2257.8" font-family="Times,serif" font-size="14.00">Miró</text>
 </g>
@@ -2369,7 +2374,7 @@
 <polygon fill="black" stroke="black" points="1511.5,-2209.22 1508,-2199.22 1504.5,-2209.22 1511.5,-2209.22"/>
 </g>
 <!-- Monty Program AB -->
-<g id="node237" class="node"><title>Monty Program AB</title>
+<g id="node238" class="node"><title>Monty Program AB</title>
 <path fill="#999999" stroke="#999999" d="M478.425,-652C478.425,-652 375.575,-652 375.575,-652 369.575,-652 363.575,-646 363.575,-640 363.575,-640 363.575,-628 363.575,-628 363.575,-622 369.575,-616 375.575,-616 375.575,-616 478.425,-616 478.425,-616 484.425,-616 490.425,-622 490.425,-628 490.425,-628 490.425,-640 490.425,-640 490.425,-646 484.425,-652 478.425,-652"/>
 <text text-anchor="middle" x="427" y="-629.8" font-family="Times,serif" font-size="14.00">Monty Program AB</text>
 </g>
@@ -2379,7 +2384,7 @@
 <polygon fill="black" stroke="black" points="405.964,-572.027 398.953,-564.084 399.481,-574.666 405.964,-572.027"/>
 </g>
 <!-- MySQL AB -->
-<g id="node238" class="node"><title>MySQL AB</title>
+<g id="node239" class="node"><title>MySQL AB</title>
 <path fill="#999999" stroke="#999999" d="M366.178,-1756C366.178,-1756 307.822,-1756 307.822,-1756 301.822,-1756 295.822,-1750 295.822,-1744 295.822,-1744 295.822,-1732 295.822,-1732 295.822,-1726 301.822,-1720 307.822,-1720 307.822,-1720 366.178,-1720 366.178,-1720 372.178,-1720 378.178,-1726 378.178,-1732 378.178,-1732 378.178,-1744 378.178,-1744 378.178,-1750 372.178,-1756 366.178,-1756"/>
 <text text-anchor="middle" x="337" y="-1733.8" font-family="Times,serif" font-size="14.00">MySQL AB</text>
 </g>
@@ -2389,7 +2394,7 @@
 <polygon fill="black" stroke="black" points="340.5,-1668.01 337,-1658.01 333.5,-1668.01 340.5,-1668.01"/>
 </g>
 <!-- Percona -->
-<g id="node239" class="node"><title>Percona</title>
+<g id="node240" class="node"><title>Percona</title>
 <path fill="#999999" stroke="#999999" d="M815.317,-564C815.317,-564 778.683,-564 778.683,-564 772.683,-564 766.683,-558 766.683,-552 766.683,-552 766.683,-540 766.683,-540 766.683,-534 772.683,-528 778.683,-528 778.683,-528 815.317,-528 815.317,-528 821.317,-528 827.317,-534 827.317,-540 827.317,-540 827.317,-552 827.317,-552 827.317,-558 821.317,-564 815.317,-564"/>
 <text text-anchor="middle" x="797" y="-541.8" font-family="Times,serif" font-size="14.00">Percona</text>
 </g>
@@ -2404,7 +2409,7 @@
 <polygon fill="black" stroke="black" points="770.087,-398.048 759.868,-395.248 766.111,-403.809 770.087,-398.048"/>
 </g>
 <!-- PostgreSQL\nGlobal\nDevelopment\nGroup -->
-<g id="node240" class="node"><title>PostgreSQL\nGlobal\nDevelopment\nGroup</title>
+<g id="node241" class="node"><title>PostgreSQL\nGlobal\nDevelopment\nGroup</title>
 <path fill="#999999" stroke="#999999" d="M1597.57,-1864C1597.57,-1864 1530.43,-1864 1530.43,-1864 1524.43,-1864 1518.43,-1858 1518.43,-1852 1518.43,-1852 1518.43,-1812 1518.43,-1812 1518.43,-1806 1524.43,-1800 1530.43,-1800 1530.43,-1800 1597.57,-1800 1597.57,-1800 1603.57,-1800 1609.57,-1806 1609.57,-1812 1609.57,-1812 1609.57,-1852 1609.57,-1852 1609.57,-1858 1603.57,-1864 1597.57,-1864"/>
 <text text-anchor="middle" x="1564" y="-1848.8" font-family="Times,serif" font-size="14.00">PostgreSQL</text>
 <text text-anchor="middle" x="1564" y="-1834.8" font-family="Times,serif" font-size="14.00">Global</text>
@@ -2417,7 +2422,7 @@
 <polygon fill="black" stroke="black" points="1464.53,-1757.94 1454.32,-1755.13 1460.55,-1763.7 1464.53,-1757.94"/>
 </g>
 <!-- RDS -->
-<g id="node241" class="node"><title>RDS</title>
+<g id="node242" class="node"><title>RDS</title>
 <path fill="#999999" stroke="#999999" d="M1495,-3116C1495,-3116 1465,-3116 1465,-3116 1459,-3116 1453,-3110 1453,-3104 1453,-3104 1453,-3092 1453,-3092 1453,-3086 1459,-3080 1465,-3080 1465,-3080 1495,-3080 1495,-3080 1501,-3080 1507,-3086 1507,-3092 1507,-3092 1507,-3104 1507,-3104 1507,-3110 1501,-3116 1495,-3116"/>
 <text text-anchor="middle" x="1480" y="-3093.8" font-family="Times,serif" font-size="14.00">RDS</text>
 </g>
@@ -2437,7 +2442,7 @@
 <polygon fill="black" stroke="black" points="1483.5,-2676.28 1480,-2666.28 1476.5,-2676.28 1483.5,-2676.28"/>
 </g>
 <!-- Relational\nTechnology\nInc -->
-<g id="node242" class="node"><title>Relational\nTechnology\nInc</title>
+<g id="node243" class="node"><title>Relational\nTechnology\nInc</title>
 <path fill="#999999" stroke="#999999" d="M2034.42,-3202C2034.42,-3202 1977.58,-3202 1977.58,-3202 1971.58,-3202 1965.58,-3196 1965.58,-3190 1965.58,-3190 1965.58,-3164 1965.58,-3164 1965.58,-3158 1971.58,-3152 1977.58,-3152 1977.58,-3152 2034.42,-3152 2034.42,-3152 2040.42,-3152 2046.42,-3158 2046.42,-3164 2046.42,-3164 2046.42,-3190 2046.42,-3190 2046.42,-3196 2040.42,-3202 2034.42,-3202"/>
 <text text-anchor="middle" x="2006" y="-3186.8" font-family="Times,serif" font-size="14.00">Relational</text>
 <text text-anchor="middle" x="2006" y="-3172.8" font-family="Times,serif" font-size="14.00">Technology</text>
@@ -2454,7 +2459,7 @@
 <polygon fill="black" stroke="black" points="2054.3,-2442.89 2052.95,-2432.38 2047.45,-2441.43 2054.3,-2442.89"/>
 </g>
 <!-- RSI -->
-<g id="node243" class="node"><title>RSI</title>
+<g id="node244" class="node"><title>RSI</title>
 <path fill="#999999" stroke="#999999" d="M917,-3274C917,-3274 887,-3274 887,-3274 881,-3274 875,-3268 875,-3262 875,-3262 875,-3250 875,-3250 875,-3244 881,-3238 887,-3238 887,-3238 917,-3238 917,-3238 923,-3238 929,-3244 929,-3250 929,-3250 929,-3262 929,-3262 929,-3268 923,-3274 917,-3274"/>
 <text text-anchor="middle" x="902" y="-3251.8" font-family="Times,serif" font-size="14.00">RSI</text>
 </g>
@@ -2469,7 +2474,7 @@
 <polygon fill="black" stroke="black" points="863.814,-2982.11 860.478,-2972.06 856.815,-2982 863.814,-2982.11"/>
 </g>
 <!-- Sybase -->
-<g id="node244" class="node"><title>Sybase</title>
+<g id="node245" class="node"><title>Sybase</title>
 <path fill="#999999" stroke="#999999" d="M2412.25,-2666C2412.25,-2666 2381.75,-2666 2381.75,-2666 2375.75,-2666 2369.75,-2660 2369.75,-2654 2369.75,-2654 2369.75,-2642 2369.75,-2642 2369.75,-2636 2375.75,-2630 2381.75,-2630 2381.75,-2630 2412.25,-2630 2412.25,-2630 2418.25,-2630 2424.25,-2636 2424.25,-2642 2424.25,-2642 2424.25,-2654 2424.25,-2654 2424.25,-2660 2418.25,-2666 2412.25,-2666"/>
 <text text-anchor="middle" x="2397" y="-2643.8" font-family="Times,serif" font-size="14.00">Sybase</text>
 </g>
@@ -2484,7 +2489,7 @@
 <polygon fill="black" stroke="black" points="2481.21,-2202.8 2479.21,-2192.39 2474.29,-2201.77 2481.21,-2202.8"/>
 </g>
 <!-- SAP -->
-<g id="node245" class="node"><title>SAP</title>
+<g id="node246" class="node"><title>SAP</title>
 <path fill="#999999" stroke="#999999" d="M2420,-324C2420,-324 2390,-324 2390,-324 2384,-324 2378,-318 2378,-312 2378,-312 2378,-300 2378,-300 2378,-294 2384,-288 2390,-288 2390,-288 2420,-288 2420,-288 2426,-288 2432,-294 2432,-300 2432,-300 2432,-312 2432,-312 2432,-318 2426,-324 2420,-324"/>
 <text text-anchor="middle" x="2405" y="-301.8" font-family="Times,serif" font-size="14.00">SAP</text>
 </g>
@@ -2494,7 +2499,7 @@
 <polygon fill="black" stroke="black" points="2390.81,-260.089 2383.84,-252.104 2384.31,-262.689 2390.81,-260.089"/>
 </g>
 <!-- Tandem\nComputers -->
-<g id="node246" class="node"><title>Tandem\nComputers</title>
+<g id="node247" class="node"><title>Tandem\nComputers</title>
 <path fill="#999999" stroke="#999999" d="M1858.58,-2666C1858.58,-2666 1805.42,-2666 1805.42,-2666 1799.42,-2666 1793.42,-2660 1793.42,-2654 1793.42,-2654 1793.42,-2642 1793.42,-2642 1793.42,-2636 1799.42,-2630 1805.42,-2630 1805.42,-2630 1858.58,-2630 1858.58,-2630 1864.58,-2630 1870.58,-2636 1870.58,-2642 1870.58,-2642 1870.58,-2654 1870.58,-2654 1870.58,-2660 1864.58,-2666 1858.58,-2666"/>
 <text text-anchor="middle" x="1832" y="-2650.8" font-family="Times,serif" font-size="14.00">Tandem</text>
 <text text-anchor="middle" x="1832" y="-2636.8" font-family="Times,serif" font-size="14.00">Computers</text>
