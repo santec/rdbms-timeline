@@ -46,8 +46,10 @@ TO-DO
 -----
 
 * Fix/complete Sybase based on this page: http://www.isug.com/Sybase_FAQ/ASE/
-* Find a way to graphically differentiate open source database
-* Add missing databases
+* Draw proper lines between MariaDB and Percona
+* Add non-mainstream MySQL forks
+* Find a way to graphically differentiate open source RDBMS
+* Add missing open source databases
 
 
 LICENSE
