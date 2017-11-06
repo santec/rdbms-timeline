@@ -1,21 +1,21 @@
-/* RDBMS timeline
- * 
- * File: RDBMS_timeline.dot
+/*
+ * RDBMS timeline
  *
  * Author: Rafael Martinez Guerrero / PostgreSQL-es
  * E-mail: rafael@postgresql.org.es
  * Web: http://www.postgresql.org.es/
  *
  * GIT repository: http://www.github.com/rafaelma/rdbms-timeline
- * 
- * The intention of this project is to create a timeline diagram with
- * information about the main RDBMS since the 70' up until now.
+ *
+ * The intention of the original project is to create a timeline diagram with
+ * information about the main RDBMSs since the 70' up until now.
+ *
+ * This fork aims to make the original work a bit more complete, with
+ * particular emphasis on open source RDBMSs.
  *
  * This is a work in progress. If you have information which can make
  * this diagram better, please do not hesitate to contact me or send a
- * patch via GITHUB.
- *
- *
+ * patch via GitHub.
  */
 
 digraph RDBMS_timeline {

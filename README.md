@@ -20,7 +20,7 @@ particular emphasis on open source RDBMSs.
 This is a work in progress. There is still a lot of information
 missing. If you have any information which can make this diagram
 better, please do not hesitate to contact me or send a patch via
-GITHUB.
+GitHub.
 
 
 INSTALL
