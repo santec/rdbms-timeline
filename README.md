@@ -38,6 +38,14 @@ Ref:
 [1] http://www.graphviz.org/
 
 
+TO-DO
+-----
+
+* Fix/complete Sybase based on this page: http://www.isug.com/Sybase_FAQ/ASE/
+* Find a way to graphically differentiate open source database
+* Add missing databases
+
+
 LICENSE
 -------
 
