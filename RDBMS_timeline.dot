@@ -190,6 +190,8 @@ graph [
 
 "Oracle Corp." [style=dotted, shape=box style="filled,rounded", color="grey60"];
 
+"Percona" [style=dotted, shape=box style="filled,rounded", color="grey60"];
+
 "PostgreSQL\nGlobal\nDevelopment\nGroup" [style=dotted, shape=box style="filled,rounded", color="grey60"];
 
 "RDS"  [style=dotted, shape=box style="filled,rounded", color="grey60"];
@@ -500,6 +502,9 @@ graph [
 "Oracle Corp." -> "Oracle v3" [style=dotted];
 "Oracle Corp." -> "MySQL 5.5" [style=dotted];
 "Oracle Corp." -> "MySQL Cluster 7.1" [style=dotted];
+
+"Percona" -> "Percona Server 5.5" [style=dotted];
+"Percona" -> "Percona XtraDB Cluster 5.5" [style=dotted];
 
 "PostgreSQL\nGlobal\nDevelopment\nGroup" -> "PostgreSQL 6.0" [style=dotted];
 
