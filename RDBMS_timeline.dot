@@ -182,9 +182,13 @@ graph [
 
 "Ingres Corp." [style=dotted, shape=box style="filled,rounded", color="grey60"];
 
+"MariaDB Corporation" [style=dotted, shape=box style="filled,rounded", color="grey60"];
+
 "Microsoft" [style=dotted, shape=box style="filled,rounded", color="grey60"];
 
 "Miró"  [style=dotted, shape=box style="filled,rounded", color="grey60"];
+
+"Monty Program AB" [style=dotted, shape=box style="filled,rounded", color="grey60"];
 
 "MySQL AB" [style=dotted, shape=box style="filled,rounded", color="grey60"];
 
@@ -493,9 +497,13 @@ graph [
 
 /*"Informix\nSoftware" -> "Informix-SQL v2" [style=dotted];*/
 
+"MariaDB Corporation" -> "MariaDB 10.0" [style=dotted];
+
 "Microsoft" -> "SQL Server 1.0" [style=dotted];
 
 "Miró" -> "Illustra\nInformation\nTechnologies";
+
+"Monty Program AB" -> "MariaDB 5.1" [style=dotted];
 
 "MySQL AB" -> "MySQL windows" [style=dotted];
 
