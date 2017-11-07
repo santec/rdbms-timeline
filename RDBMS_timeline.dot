@@ -83,7 +83,7 @@ graph [
  {rank=same; "[ 2013 ]" "SQL Anywhere 16" "PostgreSQL 9.3" "MariaDB Galera Cluster 5.5" "MySQL Cluster 7.3" "Percona Server 5.6" }
  {rank=same; "[ 2014 ]" "MariaDB 10.0" "MariaDB Galera Cluster 10.0" "Percona XtraDB Cluster 5.6" "PostgreSQL 9.4" "SQL Server 2014" "Oracle 12c" "SAP ASE 16" "Informix v12" "MaxDB 7.9" }
  {rank=same; "[ 2015 ]" "MariaDB 10.1" "MySQL 5.7" "PostgreSQL 9.5" }
- {rank=same; "[ 2016 ]" "Percona Server 5.7" "Percona XtraDB Cluster 5.7" "PostgreSQL 9.6" "Firebird 3.0" "SQL Server 2016"}
+ {rank=same; "[ 2016 ]" "Percona Server 5.7" "Percona XtraDB Cluster 5.7" "PostgreSQL 9.6" "Firebird 3.0" "SQL Server 2016"  "DB2 v11"}
  {rank=same; "[ 2017 ]" "CockroachDB 1.0" "MariaDB 10.2" "PostgreSQL 10" "mSQL 4"}
 
 
@@ -249,6 +249,7 @@ graph [
 "DB2 UDB 5" [style=filled, color=darkorange2];
 "DB2 v9" [style=filled, color=darkorange2];
 "DB2 v10" [style=filled, color=darkorange2];
+"DB2 v11" [style=filled, color=darkorange2];
 
 /* Filemaker */
 
@@ -563,7 +564,7 @@ graph [
 
 "Adabas D" -> "SAP DB" -> "MaxDB 7.5" -> "MaxDB 7.6" -> "MaxDB 7.7" -> "MaxDB 7.8" -> "MaxDB 7.9";
 
-"DB2" -> "DB2 UDB 5" -> "DB2 v9" -> "DB2 v10";
+"DB2" -> "DB2 UDB 5" -> "DB2 v9" -> "DB2 v10" -> "DB2 v11";
 
 "FileMaker v1" -> "FileMaker4 v4" -> "FileMaker II" -> "FileMaker Pro" -> "FileMaker\nPro 2" -> "FileMaker\nPro server2" -> "FileMaker\nPro 3" -> "FileMaker\nPro 4" -> "FileMaker\nPro 5" -> "FileMaker\nPro 6" -> "FileMaker\nPro 7" ->  "FileMaker\nPro 8" -> "FileMaker\nPro 9" ->  "FileMaker\nPro 10" ->  "FileMaker\nPro 11" ->  "FileMaker\nGo 1";
 
