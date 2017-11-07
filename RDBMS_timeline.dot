@@ -208,6 +208,8 @@ graph [
 
 "RSI" [style=dotted, shape=box style="filled,rounded", color="grey60"];
 
+"SkySQL" [style=dotted, shape=box style="filled,rounded", color="grey60"];
+
 "Sun Microsystems" [style=dotted, shape=box style="filled,rounded", color="grey60"];
 
 "Sybase" [style=dotted, shape=box style="filled,rounded", color="grey60"];
@@ -215,6 +217,9 @@ graph [
 "SAP" [style=dotted, shape=box style="filled,rounded", color="grey60"];
 
 "Tandem\nComputers" [style=dotted, shape=box style="filled,rounded", color="grey60"];
+
+"Monty Program AB" -> "MariaDB Corporation"
+"SkySQL" -> "MariaDB Corporation"
 
 /* 
  * 
