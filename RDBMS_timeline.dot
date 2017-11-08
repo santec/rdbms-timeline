@@ -174,7 +174,7 @@ graph [
 
 "Apache Foundation" [style=dotted, shape=box, style="filled,rounded", color="grey60"];
 
-"Cockroach Labs" -> "CockroachDB 1.0"
+"Cockroach Labs" [style=dotted, shape=box, style="filled,rounded", color="grey60"];
 
 "Cloudscape Inc." [style=dotted, shape=box, style="filled,rounded", color="grey60"];
 
@@ -538,6 +538,8 @@ graph [
 "Informix\nSoftware" -> "Cloudscape 2"
 "IBM" -> "Cloudscape 5"
 "Apache Foundation" -> "Apache Derby 10.1"
+
+"Cockroach Labs" -> "CockroachDB 1.0"
 
 "Honeywell\nInformation\nSystems, Inc" -> "Multics\nRelational\nData\nStore" [style=dotted];
 
