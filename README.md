@@ -42,6 +42,19 @@ Ref:
 [1] http://www.graphviz.org/
 
 
+HOW TO INCLUDE IN ANOTHER PROJECT
+---------------------------------
+
+Clone the repository, and look at the file RDBMS_timeline.dot. You can easily
+modify it for your needs. To find out how data is structured, look for all occurrences
+of your favourite database name.
+
+Then, you can regenerate the image you need (PNG or SVG) as explained above.
+
+Now you are free to include the image in any context: a website, slides, a book, etc.
+A reference to the repository is appreciated.
+
+
 TO-DO
 -----
 
