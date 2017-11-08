@@ -69,8 +69,8 @@ graph [
  {rank=same; "[ 1999 ]" "FileMaker\nPro 5" "PostgreSQL 6.5" "Oracle8i" "Sybase ASE 12" "mSQL 2" "Cloudscape 2"}
  {rank=same; "[ 2000 ]" "Adaptive \nServer \nAnywhere 7" "Interbase v6" "PostgreSQL 7.0" "SQL Server 2000"}
  {rank=same; "[ 2001 ]" "Adaptive \nServer \nAnywhere 8" "HSQLDB" "MySQL 3.23" "Oracle9i" "PostgreSQL 7.1" "Sybase ASE 12.5" "Cloudscape 4" "Cloudscape 5"}
- {rank=same; "[ 2002 ]" "FileMaker\nPro 6" "Firebird 1.0" "Interbase v7" "PostgreSQL 7.2" "PostgreSQL 7.3" "mSQL 3"}
- {rank=same; "[ 2003 ]" "Adaptive \nServer \nAnywhere 9" "Greenplum" "MaxDB 7.5" "MySQL 4.0" "PostgreSQL 7.4" "Oracle 10g"}
+ {rank=same; "[ 2002 ]" "FileMaker\nPro 6" "Firebird 1.0" "Interbase v7" "PostgreSQL 7.2" "PostgreSQL 7.3" "mSQL 3" "PicoSQL 1.0"}
+ {rank=same; "[ 2003 ]" "Adaptive \nServer \nAnywhere 9" "Greenplum" "MaxDB 7.5" "MySQL 4.0" "PostgreSQL 7.4" "Oracle 10g" "PicoSQL 1.1" "PicoSQL 1.2" "PicoSQL 1.3" "PicoSQL 1.4" "PicoSQL 1.5" "PicoSQL 2.0"}
  {rank=same; "[ 2004 ]" "FileMaker\nPro 7" "MySQL 4.1" "HP NonStop\nSQL/MX v2" "Firebird 1.5"}
  {rank=same; "[ 2005 ]" "FileMaker\nPro 8" "Informix v10" "MySQL 5.0" "PostgreSQL 8.0" "PostgreSQL 8.1" "Oracle 10gR2" "SQL Server 2005" "Sybase ASE 15" "Apache Derby 10.1"}
  {rank=same; "[ 2006 ]" "Firebird 2.0" "Interbase 2007" "MaxDB 7.6" "SQL Anywhere 10" "DB2 v9" "PostgreSQL 8.2" "MySQL Cluster 6.1" "Apache Derby 10.2"}
@@ -206,6 +206,8 @@ graph [
 "Oracle Corp." [style=dotted, shape=box style="filled,rounded", color="grey60"];
 
 "Percona" [style=dotted, shape=box style="filled,rounded", color="grey60"];
+
+"Picosoft" [style=dotted, shape=box style="filled,rounded", color="grey60"];
 
 "PostgreSQL\nGlobal\nDevelopment\nGroup" [style=dotted, shape=box style="filled,rounded", color="grey60"];
 
@@ -569,6 +571,8 @@ graph [
 "Percona" -> "Percona Server 5.5" [style=dotted];
 "Percona" -> "Percona XtraDB Cluster 5.5" [style=dotted];
 
+"Picosoft" -> "PicoSQL 1.0"
+
 "PostgreSQL\nGlobal\nDevelopment\nGroup" -> "PostgreSQL 6.0" [style=dotted];
 
 "RDS" -> "Informix" [style=dotted];
@@ -656,6 +660,8 @@ graph [
 "NonStop SQL" -> "NonStop SQL/MP" -> "NonStop SQL/MX" -> "HP NonStop\nSQL/MX v2" -> "HP NonStop\nSQL/MX v3";
 
 "Oracle v2" -> "Oracle v3" -> "Oracle v4" -> "Oracle v5" -> "Oracle v6" -> "Oracle7" -> "Oracle8" -> "Oracle8i" -> "Oracle9i" -> "Oracle 10g" -> "Oracle 10gR2" -> "Oracle 11g" -> "Oracle 11gR2" -> "Oracle 12c";
+
+"PicoSQL 1.0" -> "PicoSQL 1.1" -> "PicoSQL 1.2" -> "PicoSQL 1.3" -> "PicoSQL 1.4" -> "PicoSQL 1.5" -> "PicoSQL 2.0";
 
 "Postgres95" -> "PostgreSQL 6.0";
 "PostgreSQL 6.0" -> "PostgreSQL 6.1";
