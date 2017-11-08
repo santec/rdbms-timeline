@@ -3,3 +3,11 @@ JBMS, Cloudscape, Apache Derby
 
 * http://db.apache.org/derby/binaries/ApacheDerbyInternals_1_1.pdf
 * https://mvnrepository.com/artifact/org.apache.derby/derby
+
+MySQL
+=====
+
+* Release history in modern documentation:
+https://dev.mysql.com/doc/
+* Release history in obsolete documentation:
+http://www.csb.yale.edu/userguides/databases/mysql/Docs/manual_toc.html
