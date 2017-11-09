@@ -4,26 +4,30 @@ JBMS, Cloudscape, Apache Derby
 * http://db.apache.org/derby/binaries/ApacheDerbyInternals_1_1.pdf
 * https://mvnrepository.com/artifact/org.apache.derby/derby
 
+
 MariaDB
 =======
 
 * Release notes in MariaDB Documentation
 
+
 MySQL
 =====
 
 * Release history in modern documentation:
-https://dev.mysql.com/doc/
+  https://dev.mysql.com/doc/
 * Release history in obsolete documentation:
-http://www.csb.yale.edu/userguides/databases/mysql/Docs/manual_toc.html
+  http://www.csb.yale.edu/userguides/databases/mysql/Docs/manual_toc.html
+
 
 Percona Server
 ==============
 
 * Release notes on percona.com
 
+
 PicoSQL
 =======
 
 * Changelog on Freecode:
-http://www.picosoft.it/picosql/CHANGELOG
+  http://www.picosoft.it/picosql/CHANGELOG
