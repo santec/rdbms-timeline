@@ -36,7 +36,7 @@ With Graphviz installed you can run these commands to generate the
 diagram:
 
 * PNG: dot -Tpng -o RDBMS_timeline.png RDBMS_timeline.dot
-* SVG: dot -Tsvg -o RDBMS_timeline.svg RDBMS_timeline.dot 
+* SVG: dot -Tsvg -o RDBMS_timeline.svg RDBMS_timeline.dot
 
 Ref:
 [1] http://www.graphviz.org/
