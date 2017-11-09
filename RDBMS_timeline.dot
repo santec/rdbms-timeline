@@ -64,8 +64,8 @@ graph [
  {rank=same; "[ 1994 ]" "FileMaker\nPro server2" "Informix v6" "Informix v7" "Watcom SQL 4"}
  {rank=same; "[ 1995 ]" "Adabas D" "FileMaker\nPro 3" "HypersonicSQL" "NonStop SQL/MX" "Postgres95" "SQL Anywhere 5" "SQL Server 6.0" "Sybase SQL server 11"}
  {rank=same; "[ 1996 ]" "Informix v8 (XPS)" "Informix v9 (IUS)" "SQL Server 6.5" "Sybase ASE 11.5"}
- {rank=same; "[ 1997 ]" "DB2 UDB 5" "FileMaker\nPro 4" "PostgreSQL 6.0" "PostgreSQL 6.1" "PostgreSQL 6.2" "Oracle8" "SAP DB" "mSQL 1" "JBMS"}
- {rank=same; "[ 1998 ]" "Adaptive \nServer \nAnywhere 6" "MySQL windows" "PostgreSQL 6.3" "PostgreSQL 6.4" "SQL Server 7.0"}
+ {rank=same; "[ 1997 ]" "DB2 UDB 5" "FileMaker\nPro 4" "PostgreSQL 6.0" "PostgreSQL 6.1" "PostgreSQL 6.2" "Oracle8" "SAP DB" "mSQL 1" "JBMS" "GNU SQL Server 0.7b3"}
+ {rank=same; "[ 1998 ]" "Adaptive \nServer \nAnywhere 6" "MySQL windows" "PostgreSQL 6.3" "PostgreSQL 6.4" "SQL Server 7.0" "GNU SQL Server 0.7b6"}
  {rank=same; "[ 1999 ]" "FileMaker\nPro 5" "PostgreSQL 6.5" "Oracle8i" "Sybase ASE 12" "mSQL 2" "Cloudscape 2"}
  {rank=same; "[ 2000 ]" "Adaptive \nServer \nAnywhere 7" "Interbase v6" "PostgreSQL 7.0" "SQL Server 2000"}
  {rank=same; "[ 2001 ]" "Adaptive \nServer \nAnywhere 8" "HSQLDB" "MySQL 3.23" "Oracle9i" "PostgreSQL 7.1" "Sybase ASE 12.5" "Cloudscape 4" "Cloudscape 5"}
@@ -178,6 +178,8 @@ graph [
 
 "Cloudscape Inc." [style=dotted, shape=box, style="filled,rounded", color="grey60"];
 
+"FSF" [style=dotted, shape=box, style="filled,rounded", color="grey60"];
+
 "Honeywell\nInformation\nSystems, Inc" [style=dotted, shape=box, style="filled,rounded", color="grey60"];
 
 "Hughes Technologies" [style=dotted, shape=box, style="filled,rounded", color="grey60"];
@@ -192,6 +194,8 @@ graph [
 "Informix\nSoftware" -> "IBM"
 
 "Ingres Corp." [style=dotted, shape=box style="filled,rounded", color="grey60"];
+
+"ISPRAS" [style=dotted, shape=box, style="filled,rounded", color="grey60"];
 
 "MariaDB Corporation" [style=dotted, shape=box style="filled,rounded", color="grey60"];
 
@@ -214,6 +218,8 @@ graph [
 "RDS"  [style=dotted, shape=box style="filled,rounded", color="grey60"];
 
 "Relational\nTechnology\nInc"  [style=dotted, shape=box style="filled,rounded", color="grey60"];
+
+"RFBR" [style=dotted, shape=box, style="filled,rounded", color="grey60"];
 
 "RSI" [style=dotted, shape=box style="filled,rounded", color="grey60"];
 
@@ -345,6 +351,12 @@ graph [
 /* Greenplum */
 
 "Greenplum" [style=filled, color=grey90];
+
+
+/* GNU SQL Server */
+
+"GNU SQL Server 0.7b3" [style=filled, color=grey60];
+"GNU SQL Server 0.7b6" [style=filled, color=grey60];
 
 
 "HypersonicSQL" [style=filled, color=grey90];
@@ -543,6 +555,10 @@ graph [
 
 "Cockroach Labs" -> "CockroachDB 1.0"
 
+"FSF" -> "GNU SQL Server 0.7b3" [style=dotted];
+"ISPRAS" -> "GNU SQL Server 0.7b3" [style=dotted];
+"RFBR" -> "GNU SQL Server 0.7b3" [style=dotted];
+
 "Honeywell\nInformation\nSystems, Inc" -> "Multics\nRelational\nData\nStore" [style=dotted];
 
 "Hughes Technologies" -> "mSQL 1" [style=dotted];
@@ -690,6 +706,8 @@ graph [
 
 "PostgreSQL 7.3" -> "Greenplum";
 
+
+"GNU SQL Server 0.7b3" -> "GNU SQL Server 0.7b6";
 
 "SQL/DS" -> "DB2 for\nVM/VSE";
 
