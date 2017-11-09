@@ -548,12 +548,12 @@ graph [
  *
  */
 
-"Cloudscape Inc." -> "JBMS"
-"Informix\nSoftware" -> "Cloudscape 2"
-"IBM" -> "Cloudscape 5"
-"Apache Foundation" -> "Apache Derby 10.1"
+"Cloudscape Inc." -> "JBMS";
+"Informix\nSoftware" -> "Cloudscape 2";
+"IBM" -> "Cloudscape 5";
+"Apache Foundation" -> "Apache Derby 10.1";
 
-"Cockroach Labs" -> "CockroachDB 1.0"
+"Cockroach Labs" -> "CockroachDB 1.0";
 
 "FSF" -> "GNU SQL Server 0.7b3" [style=dotted];
 "ISPRAS" -> "GNU SQL Server 0.7b3" [style=dotted];
