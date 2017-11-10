@@ -76,14 +76,14 @@ graph [
  {rank=same; "[ 2006 ]" "Firebird 2.0" "Interbase 2007" "MaxDB 7.6" "SQL Anywhere 10" "DB2 v9" "PostgreSQL 8.2" "MySQL Cluster 6.1" "Apache Derby 10.2"}
  {rank=same; "[ 2007 ]" "FileMaker\nPro 9" "H-Store \n project" "Informix v11" "Oracle 11g" "MySQL Cluster 6.2" "Apache Derby 10.3"}
  {rank=same; "[ 2008 ]" "Interbase 2009" "MySQL 5.1" "PostgreSQL 8.3" "MaxDB 7.7" "SQL Anywhere 11" "SQL Server 2008" "Sun Microsystems" "MySQL Cluster 6.3" "Apache Derby 10.4"}
- {rank=same; "[ 2009 ]" "FileMaker\nPro 10" "Ingres 9.3" "PostgreSQL 8.4" "MySQL Cluster 7.0" "Apache Derby 10.5"}
- {rank=same; "[ 2010 ]" "FileMaker\nPro 11" "FileMaker\nGo 1" "HSQLDB v2" "Interbase XE" "SQL Anywhere 12" "DB2 v10" "Ingres 10" "MariaDB 5.1" "MariaDB 5.2" "MySQL 5.5" "Oracle 11gR2" "PostgreSQL 9.0" "SQL Server 2008 R2" "VoltDB" "MySQL Cluster 7.1" "Firebird 2.5" "Apache Derby 10.6" "Apache Derby 10.7"}
+ {rank=same; "[ 2009 ]" "FileMaker\nPro 10" "Ingres 9.3" "PostgreSQL 8.4" "MySQL Cluster 7.0" "Apache Derby 10.5" "Rel 0.3.17 Alpha"}
+ {rank=same; "[ 2010 ]" "FileMaker\nPro 11" "FileMaker\nGo 1" "HSQLDB v2" "Interbase XE" "SQL Anywhere 12" "DB2 v10" "Ingres 10" "MariaDB 5.1" "MariaDB 5.2" "MySQL 5.5" "Oracle 11gR2" "PostgreSQL 9.0" "SQL Server 2008 R2" "VoltDB" "MySQL Cluster 7.1" "Firebird 2.5" "Apache Derby 10.6" "Apache Derby 10.7" "Rel 1.0.0 Beta"}
  {rank=same; "[ 2011 ]" "HP NonStop\nSQL/MX v3" "MySQL 5.6" "Percona Server 5.5" "PostgreSQL 9.1" "Apache Derby 10.8"}
  {rank=same; "[ 2012 ]" "MariaDB 5.5" "PostgreSQL 9.2" "SQL Server 2012" "Percona XtraDB Cluster 5.5" "MySQL Cluster 7.2" "Apache Derby 10.9"}
  {rank=same; "[ 2013 ]" "SQL Anywhere 16" "PostgreSQL 9.3" "MariaDB Galera Cluster 5.5" "MySQL Cluster 7.3" "Percona Server 5.6" "Apache Derby 10.10"}
  {rank=same; "[ 2014 ]" "MariaDB 10.0" "MariaDB Galera Cluster 10.0" "Percona XtraDB Cluster 5.6" "PostgreSQL 9.4" "SQL Server 2014" "Oracle 12c" "SAP ASE 16" "Informix v12" "MaxDB 7.9" "Apache Derby 10.11"}
  {rank=same; "[ 2015 ]" "MariaDB 10.1" "MySQL 5.7" "PostgreSQL 9.5" "Apache Derby 10.12"}
- {rank=same; "[ 2016 ]" "Percona Server 5.7" "Percona XtraDB Cluster 5.7" "PostgreSQL 9.6" "Firebird 3.0" "SQL Server 2016"  "DB2 v11" "Apache Derby 10.13"}
+ {rank=same; "[ 2016 ]" "Percona Server 5.7" "Percona XtraDB Cluster 5.7" "PostgreSQL 9.6" "Firebird 3.0" "SQL Server 2016"  "DB2 v11" "Apache Derby 10.13" "Rel 3.000"}
  {rank=same; "[ 2017 ]" "CockroachDB 1.0" "Interbase 2017" "MariaDB 10.2" "PostgreSQL 10" "mSQL 4" "Apache Derby 10.14"}
 
 
@@ -216,6 +216,8 @@ graph [
 "PostgreSQL\nGlobal\nDevelopment\nGroup" [style=dotted, shape=box style="filled,rounded", color="grey60"];
 
 "RDS"  [style=dotted, shape=box style="filled,rounded", color="grey60"];
+
+"rel.org" [style=dotted, shape=box style="filled,rounded", color="grey60"];
 
 "Relational\nTechnology\nInc"  [style=dotted, shape=box style="filled,rounded", color="grey60"];
 
@@ -463,6 +465,13 @@ graph [
 "PostgreSQL 10" [style=filled, color=dodgerblue3];
 
 
+/* rel.org */
+
+"Rel 0.3.17 Alpha" [style=filled, color=green];
+"Rel 1.0.0 Beta" [style=filled, color=green];
+"Rel 3.000" [style=filled, color=green];
+
+
 /* Microsoft SQL Server */
 
 "SQL Server 1.0" [style=filled, color=darkolivegreen];
@@ -596,6 +605,8 @@ graph [
 "RDS" -> "Informix-SQL" [style=dotted];
 "RDS" -> "Informix\nSoftware" [style=dotted];
 
+"rel.org" -> "Rel 0.3.17 Alpha";
+
 "Relational\nTechnology\nInc" -> "Ingres" [style=dotted];
 "Relational\nTechnology\nInc" -> "Ingres Corp." [style=dotted];
 
@@ -709,6 +720,8 @@ graph [
 
 
 "GNU SQL Server 0.7b3" -> "GNU SQL Server 0.7b6";
+
+"Rel 0.3.17 Alpha" -> "Rel 1.0.0 Beta" -> "Rel 3.000";
 
 "SQL/DS" -> "DB2 for\nVM/VSE";
 
