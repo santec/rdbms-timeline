@@ -223,7 +223,7 @@ graph [
 
 "RFBR" [style=dotted, shape=box, style="filled,rounded", color="grey60"];
 
-"RSI" [style=dotted, shape=box style="filled,rounded", color="grey60"];
+"Relational Software Inc" [style=dotted, shape=box style="filled,rounded", color="grey60"];
 
 "SkySQL" [style=dotted, shape=box style="filled,rounded", color="grey60"];
 
@@ -614,8 +614,8 @@ graph [
 "Relational\nTechnology\nInc" -> "Ingres" [style=dotted];
 "Relational\nTechnology\nInc" -> "Ingres Corp." [style=dotted];
 
-"RSI" -> "Oracle v2" [style=dotted];
-"RSI" -> "Oracle Corp." [style=dotted];
+"Relational Software Inc" -> "Oracle v2" [style=dotted];
+"Relational Software Inc" -> "Oracle Corp." [style=dotted];
 
 "Sun Microsystems" -> "MySQL 5.1" [style=dotted];
 "Sun Microsystems" -> "MySQL Cluster 6.1" [style=dotted];
