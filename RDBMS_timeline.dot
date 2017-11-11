@@ -59,14 +59,14 @@ graph [
  {rank=same; "[ 1989 ]" "Informix v4" "Ingres Corp." "NonStop SQL/MP" "SQL Server 1.0" "Sybase SQL server 3"}
  {rank=same; "[ 1990 ]" "FileMaker Pro" "Informix v5"}
  {rank=same; "[ 1991 ]"  "DB2 for\nVM/VSE" "SQL Server 1.1"}
- {rank=same; "[ 1992 ]" "FileMaker\nPro 2" "Oracle7" "Watcom SQL"}
- {rank=same; "[ 1993 ]" "Illustra" "SQL Server 4.21"}
+ {rank=same; "[ 1992 ]" "FileMaker\nPro 2" "Oracle7" "Watcom SQL" "SQL Server 4.2A"}
+ {rank=same; "[ 1993 ]" "Illustra" "SQL Server 4.21" "SQL Server 4.2B"}
  {rank=same; "[ 1994 ]" "FileMaker\nPro server2" "Informix v6" "Informix v7" "Watcom SQL 4"}
  {rank=same; "[ 1995 ]" "Adabas D" "FileMaker\nPro 3" "HypersonicSQL" "NonStop SQL/MX" "Postgres95" "SQL Anywhere 5" "SQL Server 6.0" "Sybase SQL server 11"}
  {rank=same; "[ 1996 ]" "Informix v8 (XPS)" "Informix v9 (IUS)" "SQL Server 6.5" "Sybase ASE 11.5"}
  {rank=same; "[ 1997 ]" "DB2 UDB 5" "FileMaker\nPro 4" "PostgreSQL 6.0" "PostgreSQL 6.1" "PostgreSQL 6.2" "Oracle8" "SAP DB" "mSQL 1" "JBMS" "GNU SQL Server 0.7b3"}
  {rank=same; "[ 1998 ]" "Adaptive \nServer \nAnywhere 6" "MySQL windows" "PostgreSQL 6.3" "PostgreSQL 6.4" "SQL Server 7.0" "GNU SQL Server 0.7b6"}
- {rank=same; "[ 1999 ]" "FileMaker\nPro 5" "PostgreSQL 6.5" "Oracle8i" "Sybase ASE 12" "mSQL 2" "Cloudscape 2"}
+ {rank=same; "[ 1999 ]" "FileMaker\nPro 5" "PostgreSQL 6.5" "Oracle8i" "Sybase ASE 12" "mSQL 2" "Cloudscape 2" "SQL Server 7.0 OLAP Tools"}
  {rank=same; "[ 2000 ]" "Adaptive \nServer \nAnywhere 7" "Interbase v6" "PostgreSQL 7.0" "SQL Server 2000"}
  {rank=same; "[ 2001 ]" "Adaptive \nServer \nAnywhere 8" "HSQLDB" "MySQL 3.23" "Oracle9i" "PostgreSQL 7.1" "Sybase ASE 12.5" "Cloudscape 4" "Cloudscape 5"}
  {rank=same; "[ 2002 ]" "FileMaker\nPro 6" "Firebird 1.0" "Interbase v7" "PostgreSQL 7.2" "PostgreSQL 7.3" "mSQL 3" "PicoSQL 1.0"}
@@ -84,7 +84,7 @@ graph [
  {rank=same; "[ 2014 ]" "MariaDB 10.0" "MariaDB Galera Cluster 10.0" "Percona XtraDB Cluster 5.6" "PostgreSQL 9.4" "SQL Server 2014" "Oracle 12c" "SAP ASE 16" "Informix v12" "MaxDB 7.9" "Apache Derby 10.11"}
  {rank=same; "[ 2015 ]" "MariaDB 10.1" "MySQL 5.7" "PostgreSQL 9.5" "Apache Derby 10.12"}
  {rank=same; "[ 2016 ]" "Percona Server 5.7" "Percona XtraDB Cluster 5.7" "PostgreSQL 9.6" "Firebird 3.0" "SQL Server 2016"  "DB2 v11" "Apache Derby 10.13" "Rel 3.000"}
- {rank=same; "[ 2017 ]" "CockroachDB 1.0" "Interbase 2017" "MariaDB 10.2" "PostgreSQL 10" "mSQL 4" "Apache Derby 10.14"}
+ {rank=same; "[ 2017 ]" "CockroachDB 1.0" "Interbase 2017" "MariaDB 10.2" "PostgreSQL 10" "mSQL 4" "Apache Derby 10.14" "SQL Server 2017"}
 
 
 /* 
@@ -476,10 +476,13 @@ graph [
 
 "SQL Server 1.0" [style=filled, color=darkolivegreen];
 "SQL Server 1.1" [style=filled, color=darkolivegreen];
+"SQL Server 4.2A" [style=filled, color=darkolivegreen];
+"SQL Server 4.2B" [style=filled, color=darkolivegreen];
 "SQL Server 4.21" [style=filled, color=darkolivegreen];
 "SQL Server 6.0" [style=filled, color=darkolivegreen];
 "SQL Server 6.5" [style=filled, color=darkolivegreen];
 "SQL Server 7.0" [style=filled, color=darkolivegreen];
+"SQL Server 7.0 OLAP Tools" [style=filled, color=darkolivegreen];
 "SQL Server 2000" [style=filled, color=darkolivegreen];
 "SQL Server 2005" [style=filled, color=darkolivegreen];
 "SQL Server 2008" [style=filled, color=darkolivegreen];
@@ -487,6 +490,7 @@ graph [
 "SQL Server 2012" [style=filled, color=darkolivegreen];
 "SQL Server 2014" [style=filled, color=darkolivegreen];
 "SQL Server 2016" [style=filled, color=darkolivegreen];
+"SQL Server 2017" [style=filled, color=darkolivegreen];
 
 /* SQL Anywhere */
 
@@ -725,7 +729,7 @@ graph [
 
 "SQL/DS" -> "DB2 for\nVM/VSE";
 
-"SQL Server 1.0" -> "SQL Server 1.1" -> "SQL Server 4.21" -> "SQL Server 6.0" -> "SQL Server 6.5" -> "SQL Server 7.0" -> "SQL Server 2000" -> "SQL Server 2005" -> "SQL Server 2008"  -> "SQL Server 2008 R2" -> "SQL Server 2012" -> "SQL Server 2014" -> "SQL Server 2016"
+"SQL Server 1.0" -> "SQL Server 1.1" -> "SQL Server 4.2A" -> "SQL Server 4.2B" -> "SQL Server 4.21" -> "SQL Server 6.0" -> "SQL Server 6.5" -> "SQL Server 7.0" -> "SQL Server 7.0 OLAP Tools" -> "SQL Server 2000" -> "SQL Server 2005" -> "SQL Server 2008"  -> "SQL Server 2008 R2" -> "SQL Server 2012" -> "SQL Server 2014" -> "SQL Server 2016" -> "SQL Server 2017";
 
 "Sybase SQL server" -> "SQL Server 1.0";
 "Sybase SQL server" -> "Sybase SQL server 3";
