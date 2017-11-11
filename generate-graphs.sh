@@ -1,3 +1,6 @@
+# This script is used to generate graphs for the project RDBMS-timeline.
+
+
 # check if graphviz is installed
 which dot > /dev/null
 if [ $? -ne 0 ];
