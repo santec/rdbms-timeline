@@ -23,8 +23,8 @@ better, please do not hesitate to contact me or send a patch via
 GitHub.
 
 
-INSTALL
--------
+Install
+=======
 
 We use Graphviz [1] to generate the SVG and PNG versions og the
 diagram.
@@ -42,8 +42,8 @@ Ref:
 [1] http://www.graphviz.org/
 
 
-HOW TO INCLUDE IN ANOTHER PROJECT
----------------------------------
+How to include in another project
+=================================
 
 Clone the repository, and look at the file RDBMS_timeline.dot. You can easily
 modify it for your needs. To find out how data is structured, look for all occurrences
@@ -55,8 +55,8 @@ Now you are free to include the image in any context: a website, slides, a book,
 A reference to the repository is appreciated.
 
 
-TO-DO
------
+To-Do
+=====
 
 * Fix/complete Sybase based on this page: http://www.isug.com/Sybase_FAQ/ASE/
 * Draw proper lines between MariaDB and Percona
@@ -66,8 +66,8 @@ TO-DO
 * Add missing open source databases
 
 
-LICENSE
--------
+License
+=======
 
 RDBMS-timeline is licensed under a standard 3-clause BSD license.
 
