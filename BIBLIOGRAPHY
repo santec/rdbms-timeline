@@ -2,10 +2,29 @@ Bibliography
 ============
 
 This file has 2 purposes:
+* Provide links or references to the mentioned papers
 * Provide sources for (some) information described by this project
 * Provide sources of more in-depth/exhaustive information
 
 Contributors are strongly encouraged to add their sources here.
+
+
+Papers
+======
+
+* Feasibility of a set-theoretic data structure
+  https://dl.acm.org/citation.cfm?id=1476663
+* "A relational model of data for large shared data banks"
+  https://dl.acm.org/citation.cfm?id=362685
+* System R: relational approach to database management
+  https://dl.acm.org/citation.cfm?id=320457
+* H-Store: A High-Performance, Distributed Main Memory
+  Transaction Processing System
+  http://hstore.cs.brown.edu/papers/hstore-demo.pdf
+* The design and implementation of INGRES
+  https://dl.acm.org/citation.cfm?id=320476
+* The design of POSTGRES
+  https://dl.acm.org/citation.cfm?doid=16856.16888
 
 
 BNU SQL Server
