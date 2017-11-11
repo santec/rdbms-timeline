@@ -71,7 +71,9 @@ License
 
 RDBMS-timeline is licensed under a standard 3-clause BSD license.
 
-Copyright (c) 2011-2012, Rafael Martinez Guerrero. All rights reserved.
+Copyright (c):
+2011-2012, Rafael Martinez Guerrero. All rights reserved.
+2017, Federico Razzoli
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
