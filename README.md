@@ -1,15 +1,15 @@
 RDBMS timeline
 ==============
 
+Maintainer of this fork:
+* Federico Razzoli
+* Email: federico_raz@yahoo.it
+
 Original author:
 * Author: Rafael Martinez Guerrero / PostgreSQL-es
 * Email: rafael@postgresql.org.es
 * Web: http://www.postgresql.org.es/
 * GIT repository: http://www.github.com/rafaelma/rdbms-timeline
-
-Maintainer of this fork:
-* Federico Razzoli
-* Email: federico_raz@yahoo.it
 
 The intention of the original project is to create a timeline diagram with
 information about the main RDBMSs since the 70' up until now.
@@ -92,9 +92,11 @@ License
 
 RDBMS-timeline is licensed under a standard 3-clause BSD license.
 
+```
 Copyright (c):
 2011-2012, Rafael Martinez Guerrero. All rights reserved.
 2017, Federico Razzoli
+```
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
