@@ -84,8 +84,8 @@ graph [
  {rank=same; "[ 2012 ]" "MariaDB 5.5" "PostgreSQL 9.2" "SQL Server 2012" "Percona XtraDB Cluster 5.5" "MySQL Cluster 7.2" "Apache Derby 10.9"}
  {rank=same; "[ 2013 ]" "SQL Anywhere 16" "PostgreSQL 9.3" "MariaDB Galera Cluster 5.5" "MySQL Cluster 7.3" "Percona Server 5.6" "Apache Derby 10.10"}
  {rank=same; "[ 2014 ]" "MariaDB 10.0" "MariaDB Galera Cluster 10.0" "Percona XtraDB Cluster 5.6" "PostgreSQL 9.4" "SQL Server 2014" "Oracle 12c" "SAP ASE 16" "Informix v12" "MaxDB 7.9" "Apache Derby 10.11"}
- {rank=same; "[ 2015 ]" "MariaDB 10.1" "MySQL 5.7" "PostgreSQL 9.5" "Apache Derby 10.12"}
- {rank=same; "[ 2016 ]" "Percona Server 5.7" "Percona XtraDB Cluster 5.7" "PostgreSQL 9.6" "Firebird 3.0" "SQL Server 2016"  "DB2 v11" "Apache Derby 10.13" "Rel 3.000" "SQL:2016"}
+ {rank=same; "[ 2015 ]" "MariaDB 10.1" "MySQL Cluster 7.4" "MySQL 5.7" "PostgreSQL 9.5" "Apache Derby 10.12"}
+ {rank=same; "[ 2016 ]" "MySQL Cluster 7.5" "Percona Server 5.7" "Percona XtraDB Cluster 5.7" "PostgreSQL 9.6" "Firebird 3.0" "SQL Server 2016"  "DB2 v11" "Apache Derby 10.13" "Rel 3.000" "SQL:2016"}
  {rank=same; "[ 2017 ]" "CockroachDB 1.0" "Interbase 2017" "MariaDB 10.2" "PostgreSQL 10" "mSQL 4" "Apache Derby 10.14" "SQL Server 2017"}
 
 
@@ -449,6 +449,8 @@ graph [
 "MySQL Cluster 7.1" [style=filled, color=coral];
 "MySQL Cluster 7.2" [style=filled, color=coral];
 "MySQL Cluster 7.3" [style=filled, color=coral];
+"MySQL Cluster 7.4" [style=filled, color=coral];
+"MySQL Cluster 7.5" [style=filled, color=coral];
 
 /* NonStop SQL */
 
@@ -718,16 +720,12 @@ graph [
 "Percona Server 5.6" -> "Percona XtraDB Cluster 5.6"
 "Percona Server 5.7" -> "Percona XtraDB Cluster 5.7"
 
-"MySQL Cluster 6.1" -> "MySQL Cluster 6.2";
-"MySQL Cluster 6.2" -> "MySQL Cluster 6.3";
-"MySQL Cluster 6.3" -> "MySQL Cluster 7.0";
-"MySQL Cluster 7.0" -> "MySQL Cluster 7.1";
-"MySQL Cluster 7.1" -> "MySQL Cluster 7.2";
-"MySQL Cluster 7.2" -> "MySQL Cluster 7.3";
+"MySQL Cluster 6.1" -> "MySQL Cluster 6.2" -> "MySQL Cluster 6.3" -> "MySQL Cluster 7.0" -> "MySQL Cluster 7.1" -> "MySQL Cluster 7.2" -> "MySQL Cluster 7.3" -> "MySQL Cluster 7.4" -> "MySQL Cluster 7.5";
 
 "MySQL 5.1" -> "MySQL Cluster 6.2";
 "MySQL 5.5" -> "MySQL Cluster 7.2";
 "MySQL 5.6" -> "MySQL Cluster 7.3";
+"MySQL 5.7" -> "MySQL Cluster 7.4";
 
 "NonStop SQL" -> "NonStop SQL/MP" -> "NonStop SQL/MX" -> "HP NonStop\nSQL/MX v2" -> "HP NonStop\nSQL/MX v3";
 
