@@ -1,0 +1,5 @@
+# Hide extensions of graph files created by default
+# and not wanted in the repo (otherwise we'll have to maintain them).
+*.gif
+*.jpeg
+*.tiff

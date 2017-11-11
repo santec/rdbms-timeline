@@ -23,22 +23,6 @@ better, please do not hesitate to contact me or send a patch via
 GitHub.
 
 
-Install
-=======
-
-To regenerate graphs, we use a commodity script:
-
-./generate-graphs.sh
-
-We use Graphviz [1] to generate the SVG and PNG versions og the
-diagram. You can install it from its website and follow install
-instructions. If Graphviz is not installed, generate-graphs.sh
-will fail with a suggestion to install it from the official website.
-
-Ref:
-[1] http://www.graphviz.org/
-
-
 How to include in another project
 =================================
 
@@ -50,6 +34,46 @@ Then, you can regenerate the image you need (PNG or SVG) as explained above.
 
 Now you are free to include the image in any context: a website, slides, a book, etc.
 A reference to the repository is appreciated.
+
+
+Generating the graphs
+=====================
+
+We use Graphviz to generate the SVG and PNG versions og the
+diagram. You can install it from its website and follow install
+instructions. If it is not in your OS repositories, you can install it
+from the official website:
+
+```
+http://www.graphviz.org/
+```
+
+To regenerate graphs, we use a commodity script:
+
+./generate-graphs.sh
+
+The script's behavior can be configured by editing generate-graphs.cnf.
+All options are documented in a (hopefully) clear and exhaustive way.
+Here you can find a summary of the most relevant.
+
+First, you may want to avoid polluting the project directory with
+your new graphs. By editing OUTPUT_PATH, you can decide where
+new graphs are generated.
+
+To generate the graphs in different formats, edit FORMAT_LIST.
+Note that, by default, some formats are generated that are not
+included in the repository.
+This can be useful to include the graphs in books, documents, slides,
+etc. The list of formats supported by Graphviz is here:
+http://www.graphviz.org/doc/info/output.html
+
+If you want to generate different graphs, with different contents,
+it is useful to use different filenames. The filename is set by
+OUTPUT_FILENAME option.
+
+Last but not least, if what the script does is not what you expect,
+you can set VERBOSE=1 to better investigate.
+If you are into dot, use VERBOSE=2 to use dot's -v option.
 
 
 To-Do

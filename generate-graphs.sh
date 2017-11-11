@@ -1,4 +1,19 @@
+#!/bin/bash
+
 # This script is used to generate graphs for the project RDBMS-timeline.
+
+
+# include config
+. generate-graphs.cnf
+
+
+# only print a scring if in verbose mode
+function verbose {
+    if [ $VERBOSE -eq '1' ];
+    then
+        echo $1
+    fi
+}
 
 
 # check if graphviz is installed
@@ -10,18 +25,19 @@ then
     exit 1
 fi
 
-# generate PNG
-dot -Tpng -o RDBMS_timeline.png RDBMS_timeline.dot
-exit_code=$?
-if [ $exit_code -ne 0 ];
-then
-    echo "PNG generation failed with exit code $exit_code"
-fi
+for format in "${FORMAT_LIST[@]}"
+do
+    format_low=$( echo "$format" | tr '[:upper:]' '[:lower:]' )
+    if [ $VERBOSE -eq '2' ];
+    then
+        v_option='-v'
+    fi
 
-# generate SVG
-dot -Tsvg -o RDBMS_timeline.svg RDBMS_timeline.dot
-exit_code=$?
-if [ $exit_code -ne 0 ];
-then
-    echo "SVG generation failed with exit code $exit_code"
-fi
+    verbose "Generating $OUTPUT_FILENAME.$format_low"
+    dot -T$format_low $v_option -o $OUTPUT_PATH$OUTPUT_FILENAME.$format_low RDBMS_timeline.dot
+    exit_code=$?
+    if [ $exit_code -ne 0 ];
+    then
+        echo "$format generation failed with exit code $exit_code"
+    fi
+done

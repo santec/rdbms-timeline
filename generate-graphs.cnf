@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# This is the configuration file for generate-graphs.sh.
+# Use it to modify the way graphs are generated.
+
+
+# Generate graphs in these formats.
+# List of supported formats:
+# http://www.graphviz.org/doc/info/output.html
+FORMAT_LIST=( svg png jpeg gif tiff )
+
+# Base filename for the graph files.
+# an extension will be added which indicates the format
+# (eg: my-file.png, my-file.svg...).
+OUTPUT_FILENAME='RDBMS_timeline'
+
+# Graph files will be created in this path.
+# Include a '/' at the end.
+# Use './' for the current path.
+OUTPUT_PATH='./'
+
+# Verbose mode. Allowed values:
+# 0: OFF
+# 1: Enabled for the script
+# 2: Enabled for both the script and dot command
+VERBOSE=0
