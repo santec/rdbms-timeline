@@ -26,17 +26,14 @@ GitHub.
 Install
 =======
 
+To regenerate graphs, we use a commodity script:
+
+./generate-graphs.sh
+
 We use Graphviz [1] to generate the SVG and PNG versions og the
-diagram.
-
-You need to install Graphviz in your system if you want to use the
-RDBMS_timeline.dot file to generate other formats.
-
-With Graphviz installed you can run these commands to generate the
-diagram:
-
-* PNG: dot -Tpng -o RDBMS_timeline.png RDBMS_timeline.dot
-* SVG: dot -Tsvg -o RDBMS_timeline.svg RDBMS_timeline.dot
+diagram. You can install it from its website and follow install
+instructions. If Graphviz is not installed, generate-graphs.sh
+will fail with a suggestion to install it from the official website.
 
 Ref:
 [1] http://www.graphviz.org/
