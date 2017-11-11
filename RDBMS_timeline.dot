@@ -182,7 +182,7 @@ graph [
 
 /* 
  * 
- * Company  - nodes
+ * Organization  - nodes
  *
  */
 
@@ -572,7 +572,7 @@ graph [
 
 /* 
  * 
- * Company / database - relations
+ * Organization / database - relations
  *
  */
 
