@@ -37,6 +37,7 @@ graph [
  * *********************
 */
 
+ {rank=same; "[ 1968 ]" "Description of\na set-theoretic\ndata structure\nby D.L. Childs"}
  {rank=same; "[ 1968 ]" "Feasibility of\na set-theoretic\ndata structure\nby D.L. Childs"}
  {rank=same; "[ 1969 ]" }
  {rank=same; "[ 1970 ]" "'A Relational \nModel of Data \nfor Large Shared \nData Banks'\n by Edgar F. Codd"}
@@ -164,6 +165,7 @@ graph [
 
 "'A Relational \nModel of Data \nfor Large Shared \nData Banks'\n by Edgar F. Codd" [style=dotted, style="filled,rounded", color="grey40"];
 
+"Description of\na set-theoretic\ndata structure\nby D.L. Childs" [style="filled", color="grey40"];
 "Feasibility of\na set-theoretic\ndata structure\nby D.L. Childs" [style="filled", color="grey40"];
 "H-Store \n project" [style="filled", color="grey40"];
 "Ingres \nproject\n(Berkeley)" [style="filled", color="grey40"];
@@ -203,7 +205,7 @@ graph [
  *
  */
 
-"Feasibility of\na set-theoretic\ndata structure\nby D.L. Childs" -> "'A Relational \nModel of Data \nfor Large Shared \nData Banks'\n by Edgar F. Codd"
+"Description of\na set-theoretic\ndata structure\nby D.L. Childs" -> "Feasibility of\na set-theoretic\ndata structure\nby D.L. Childs" -> "'A Relational \nModel of Data \nfor Large Shared \nData Banks'\n by Edgar F. Codd"
 
 
 /* 
