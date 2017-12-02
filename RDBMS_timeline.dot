@@ -638,7 +638,7 @@ graph [
  *
  */
 
-"Alphora" -> "Dataphor 1.0"
+"Alphora" -> "Dataphor 1.0";
 
 "Cloudscape Inc." -> "JBMS";
 "Informix\nSoftware" -> "Cloudscape 2";
