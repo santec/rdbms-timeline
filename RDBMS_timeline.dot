@@ -638,14 +638,14 @@ graph [
  *
  */
 
-"Alphora" -> "Dataphor 1.0";
+"Alphora" -> "Dataphor 1.0" [style=dotted];
 
-"Cloudscape Inc." -> "JBMS";
-"Informix\nSoftware" -> "Cloudscape 2";
-"IBM" -> "Cloudscape 5";
-"Apache Foundation" -> "Apache Derby 10.1";
+"Cloudscape Inc." -> "JBMS" [style=dotted];
+"Informix\nSoftware" -> "Cloudscape 2" [style=dotted];
+"IBM" -> "Cloudscape 5" [style=dotted];
+"Apache Foundation" -> "Apache Derby 10.1" [style=dotted];
 
-"Cockroach Labs" -> "CockroachDB 1.0";
+"Cockroach Labs" -> "CockroachDB 1.0" [style=dotted];
 
 "FSF" -> "GNU SQL Server 0.7b3" [style=dotted];
 "ISPRAS" -> "GNU SQL Server 0.7b3" [style=dotted];
